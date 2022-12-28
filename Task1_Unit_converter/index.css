@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+.title_name{
+    margin-top: 20px;;
+    font-size: 80px;
+    font-weight: bolder ;
+}
+.bg{
+    background-color:  rgb(35, 69, 69);
+    height: 487px;
+}
+.content{
+    background-color: rgb(35, 69, 69);
+}
+#topbar{
+    height: 202px;
+    width: 100%;
+    background-color: #1c1c1c;
+    overflow: hidden;
+    margin-bottom: 10px;
+    /* text-align: center; */
+    display: inline-flex;
+    font-size: 40px;
+    background-repeat: no-repeat;
+    
+}
+
+#topbar_image{
+    margin-left: 1060px;
+    position: fixed;
+    
+}
+h1{
+    font-size: calc(4.375rem + 1.5vw);
+    margin-left: 300px;
+    color: aliceblue;
+    display: inline-block;
+   
+}
+.navbar{
+    text-align: center;
+    margin-top: -10px;
+    width: 50vw;
+    margin-left: 46vh;
+    background-color: #1c1c1c;
+    /* box-shadow: 28px 1px 5px #aaa; */
+}
+.bgimage{
+    height: 30vh;
+}
+.navbar :hover{
+    background-color: rgb(112, 26, 98);
+    border-radius: 2em;
+}
+.footer{
+    margin-left: 674px;
+    padding-top: 435px;
+    color: aliceblue;
+}
+#converter_body{
+    width: 490px;
+    height: 273px;
+    position: absolute;
+    background-color: aquamarine;
+    border: 3px solid black;
+    top: 52%;
+    left: 43%;
+    transform: translate(-30%,-30%);
+    box-shadow: 3px 2px 8px 5px #cacaca;
+}
+#lconverter_title,#mconverter_title,#tconverter_title,#ticonverter_title{
+    text-align: center;
+    margin: 13px 0px;
+    font-size: 50px;
+
+}
+#linput ,#minput ,#tinput ,#tiinput , #mresult, #lresult, #tresult, #tiresult{
+    margin-left: 10px;
+    height: 32px;
+    text-align: center;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    border-radius: 0.3rem;
+}
+#minput,#linput,#tinput,#tiinput{
+    margin-left: 55px;
+    margin-right: 8px;
+}
+#linput-type ,#minput-type ,#tinput-type ,#tiinput-type ,#mresult-type,#lresult-type,#tresult-type,#tiresult-type{
+    width: 187px;
+    margin-left: 55px;
+    text-align: center;
+    height: 32px;
+    border: 2px solid black;
+    border-radius: 0.3rem;
+}
+#lresult-type,#mresult-type,#tresult-type,#tiresult-type{
+    margin-left: 33px;
+}
+
