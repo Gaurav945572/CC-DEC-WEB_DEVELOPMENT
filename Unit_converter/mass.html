@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mass Converter</title>
+</head>
+<body>
+    <div id="topbar">
+        <h1 class="title_name">Unit Converter</h1> 
+        <img src="images/resizedImage.png" class="rounded-6"  alt="" id="topbar_image">
+    </div>
+    <div class="content">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" onclick="home()">Home</a>
+          </div>
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" onclick="length()">Length</a>
+        </div>
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" onclick="temp()">Temperature</a>
+          </div>
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#" onclick="mass()">Mass</a>
+          </div>
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#" onclick="time()">Time</a>  
+          </div>
+      </nav></div>
+      <div id="converter_body">
+        <div id="mconverter_title">Mass </div>
+        <input type="text" placeholder="input" id="minput" onclick="m()" oninput="m()">
+        <span>  =</span>
+        <input type="text" placeholder="result" id="mresult" onclick="m()" oninput="m()">
+        
+          
+        <select  id="minput-type" onscroll="m()" onclick="m()">
+            <option value="milligram">Milligram</option>
+            <option value="centigram">Centigram</option>
+            <option value="gram">Gram</option>
+            <option value="kilogram">Kilogram</option>
+        </select>
+        <select  id="mresult-type" onscroll="m()" onclick="m()">
+            <option value="milligram">Milligram</option>
+            <option value="centigram">Centigram</option>
+            <option value="gram">Gram</option>
+            <option value="kilogram">Kilogram</option>
+
+        </select>
+      </div>
+      <div class="bottom">
+       </div>
+       <div class="bg">
+        <div class="footer">
+          copyright ©️ Gaurav Singh
+        </div></div>
+      <script src="index.js"></script>
+</body>
+</html>
